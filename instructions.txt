@@ -1,0 +1,16 @@
+1. Approach to solution
+
+a) Firstly I worked on extraction indivisually, where blogs have 2 kind of framewire thats why extraction function has to ckeck for two classes for tittle and text.
+b) Then to use dictionary and stop words I built functions to get those from files to HashSet.
+c) Then I worked with each varible calculation function in jupyter to test each.
+d) Finally for each stored extracted txt analyse each one at a time and store output in excel. 
+
+2. How to run the .py file to generate output
+
+a) RUN pip install -r requirements.txt
+b) RUN python analysis.py
+
+3. Dependencies
+
+a) All dependencies specified in requirements file.
+b) MasterDictionary, StopWords and Input.xlsx files are required.
